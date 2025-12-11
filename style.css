@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: stretch;  
+  background-image: url("imgs/Gallery_background/Industrialcafe.jpg"); 
+  background-size: cover;                 /* Stretches image to cover the whole area */
+  background-repeat: no-repeat;           /* Prevents tiling */
+  background-position: center center;     /* Centers the image */
+  min-height: 100vh;
+  margin: 0;
+}
+
+.left-sidebar {
+    width: 300px;
+    background-color: #4e2d00cb;
+    color: white;
+    padding: ;
+    min-height: 100vh; /* optional; align-items:stretch already stretches it */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
+    margin: 30px 30px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav li {
+    margin: 30px;
+    font-family: "Rouge Script", cursive;
+    font-style: italic;
+    
+}
+
+.tider {
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(235, 133, 38)
+}
+
+nav a {
+    color: rgb(235, 133, 38);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+}
+
+nav a:hover {
+    background-color:rgba(109, 89, 3, 0.692);
+    border-radius: 10px;
+}
+
+.right-sidebar {
+    width: 500px;
+    margin-left: auto;
+    background-color:#4e2d00cb;
+    color:rgb(235, 133, 38);
+    font-family: serif;
+    padding: 40px;
+    min-height: 100vh;  /* full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.right-sidebar h1 {
+    color: #d46d18; 
+    font-size: 57px; 
+}
+
+.right-sidebar p {
+    font-size: 20px;
+}
+
+figcaption {
+    text-align: left;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.maps {
+    border-radius: 20px;
+}
+
+                                /* -----------events.html styling-------------- */
+
+.main-content-events {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-title {
+    font-size: 50px;
+    color: rgb(235, 162, 94);
+}
+
+.eventcalendar {
+    max-width: 940px;
+}
+
+table {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+th {
+    border: 2px solid rgba(235, 133, 38, 0.5);
+    
+}
+
+table {
+    background-color: #4e2d00cb; 
+    border: 2px solid rgba(235, 133, 38, 0.5);
+    border-collapse: collapse;
+    height: 80vh;
+    width: 70vh;
+    color: rgb(235, 133, 38);
+}
+
+/* Table data */
+td {
+    border: 2px solid rgba(235, 133, 38, 0.473);
+    width: 300px;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.calendar-left {
+    width: 150px;
+}
+/* Table data */
